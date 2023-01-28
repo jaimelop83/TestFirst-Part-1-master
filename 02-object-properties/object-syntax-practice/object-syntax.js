@@ -2,13 +2,13 @@
 
 const name = 'Cody';
 const loud = 'loud';
-
-function dog = {
-    break() {
-        return 'ruff ruff!';
-    },
-    name,
-    [loud + 'Bark']() {
-        return this.bark().toUpperCase();
-    },
+let dog = {
+  name,
+  bark() {
+    return 'ruff ruff!';
+  },
+  name,
+  loudBark() {
+    return 'RUFF RUFF!';
+  },
 };
